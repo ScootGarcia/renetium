@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BookOpen, Search, ChevronDown, Tag, Clock, User } from 'lucide-react';
-import { RenetiumLogo } from './App'; // Import the logo from App.js
+import { RenetiumLogo } from '../App'; // Import the logo from App.js
 
 // Single Article Card Component
 import { Link } from 'react-router-dom';

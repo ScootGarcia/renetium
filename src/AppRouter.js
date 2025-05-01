@@ -4,7 +4,7 @@ import { Camera, Search, Menu, X, MessageCircle, BookOpen, Share2, Info } from '
 
 // Import page components
 import App from './App';
-import Articles from './Articles';
+import Articles from './pages/Articles';
 import Forum from './Forum';
 import WhyIStartedRenetium from './pages/WhyIStartedRenetium';
 
