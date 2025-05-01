@@ -3,12 +3,15 @@ import { BookOpen, Search, ChevronDown, Tag, Clock, User } from 'lucide-react';
 import { RenetiumLogo } from './App'; // Import the logo from App.js
 
 // Single Article Card Component
+import { Link } from 'react-router-dom';
+
 const ArticleCard = ({ article }) => (
-  <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+<Link to={article.path} className="block">
+  <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition flex flex-col h-full">
     <div className="h-48 bg-blue-200 flex items-center justify-center">
       <BookOpen size={32} className="text-blue-600" />
     </div>
-    <div className="p-5">
+    <div className="p-5 flex flex-col flex-1">
       <div className="flex items-center text-sm text-blue-500 mb-2">
         <Tag size={14} className="mr-1" />
         <span>{article.category}</span>
@@ -16,19 +19,20 @@ const ArticleCard = ({ article }) => (
         <Clock size={14} className="mr-1" />
         <span>{article.readTime} min read</span>
       </div>
-      <h3 className="font-bold text-xl text-blue-800 mb-2">{article.title}</h3>
-      <p className="text-blue-900 mb-4">{article.excerpt}</p>
-      <div className="flex justify-between items-center">
+      <h3 className="font-bold text-xl text-blue-800 mb-2 hover:underline">
+        {article.title}
+      </h3>
+      <p className="text-blue-900 text-sm mb-4 flex-grow">{article.excerpt}</p>
+
+      <div className="mt-auto flex items-center justify-between text-sm text-blue-600">
         <div className="flex items-center">
-          <User size={16} className="text-blue-600 mr-1" />
-          <span className="text-sm text-blue-600">{article.author}</span>
+          <User size={16} className="mr-1" />
+          <span>{article.author}</span>
         </div>
-        <button className="px-4 py-1 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition text-sm">
-          Read
-        </button>
       </div>
     </div>
   </div>
+</Link>
 );
 
 // Articles Page Component
@@ -37,18 +41,20 @@ const Articles = () => {
   const [searchQuery, setSearchQuery] = useState('');
   
   // Available article categories
-  const categories = ['All', 'Tutorials', 'Gear Reviews', 'Techniques', 'Inspiration', 'News'];
+  const categories = ['All','Behind the scenes','Tutorials', 'Gear Reviews', 'Techniques', 'Inspiration', 'News'];
   
   // Sample article data
   const articles = [
     {
       id: 1,
-      title: "Essential Tips for Landscape Photography",
-      excerpt: "Master the art of capturing stunning landscapes with these time-tested techniques for outdoor photography.",
-      author: "Emma Johnson",
-      category: "Tutorials",
-      readTime: 8,
-      date: "Apr 15, 2025"
+      title: "Why I started Renetium",
+      excerpt: "How a beginner’s photography and coding journey turned into a shared learning project.",
+      author: "René",
+      category: "Behind the scenes",
+      path: "/articles/why-i-started-renetium",
+      readTime: 5,
+      date: "May 01, 2025",
+      image: "/images/why-i-started-renetium.jpg"
     },
     {
       id: 2,

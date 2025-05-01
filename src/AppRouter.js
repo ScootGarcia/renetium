@@ -6,6 +6,7 @@ import { Camera, Search, Menu, X, MessageCircle, BookOpen, Share2, Info } from '
 import App from './App';
 import Articles from './Articles';
 import Forum from './Forum';
+import WhyIStartedRenetium from './pages/WhyIStartedRenetium';
 
 // Logo Component (exported to be used in other components)
 export const RenetiumLogo = () => (
@@ -99,6 +100,7 @@ const AppRouter = () => {
         <Route path="/" element={<App />} />
         <Route path="/articles" element={<Articles />} />
         <Route path="/forum" element={<Forum />} />
+        <Route path="/articles/why-i-started-renetium" element={<WhyIStartedRenetium />} />
         <Route path="/tips" element={<div className="min-h-screen flex items-center justify-center bg-blue-50">
           <h1 className="text-3xl font-bold text-blue-700">Coming Soon: Photography Tips & Tricks</h1>
         </div>} />
