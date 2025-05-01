@@ -1,26 +1,47 @@
 {
   "name": "renetium",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
-  "homepage": "https://scootgarcia.github.io/renetium",
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.0",
-    "lucide-react": "^0.263.0",
-    "gh-pages": "^5.0.0",               // ✅ Make sure this is installed
-    "tailwindcss": "^3.3.0",
-    // ... any other dependencies like autoprefixer, postcss, etc.
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "lucide-react": "^0.503.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.5.3",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",     // CRA dev server
-    "build": "react-scripts build",     // CRA build
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",       // ✅ Will run before deploy
-    "deploy": "gh-pages -d build"       // ✅ Pushes build folder to GitHub Pages
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    // optional: if you use postcss, prettier, eslint, etc.
+    "@tailwindcss/postcss": "^4.1.4",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2"
   }
 }
