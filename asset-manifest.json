@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/renetium/static/css/main.9a36acfc.css",
-    "main.js": "/renetium/static/js/main.79f84c3b.js",
-    "index.html": "/renetium/index.html",
-    "main.9a36acfc.css.map": "/renetium/static/css/main.9a36acfc.css.map",
-    "main.79f84c3b.js.map": "/renetium/static/js/main.79f84c3b.js.map"
+    "main.css": "/static/css/main.9a36acfc.css",
+    "main.js": "/static/js/main.79f84c3b.js",
+    "index.html": "/index.html",
+    "main.9a36acfc.css.map": "/static/css/main.9a36acfc.css.map",
+    "main.79f84c3b.js.map": "/static/js/main.79f84c3b.js.map"
   },
   "entrypoints": [
     "static/css/main.9a36acfc.css",
