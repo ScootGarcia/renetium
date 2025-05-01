@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.74629af3.css",
-    "main.js": "/static/js/main.c638a858.js",
-    "index.html": "/index.html",
-    "main.74629af3.css.map": "/static/css/main.74629af3.css.map",
-    "main.c638a858.js.map": "/static/js/main.c638a858.js.map"
+    "main.css": "/renetium/static/css/main.9a36acfc.css",
+    "main.js": "/renetium/static/js/main.79f84c3b.js",
+    "index.html": "/renetium/index.html",
+    "main.9a36acfc.css.map": "/renetium/static/css/main.9a36acfc.css.map",
+    "main.79f84c3b.js.map": "/renetium/static/js/main.79f84c3b.js.map"
   },
   "entrypoints": [
-    "static/css/main.74629af3.css",
-    "static/js/main.c638a858.js"
+    "static/css/main.9a36acfc.css",
+    "static/js/main.79f84c3b.js"
   ]
 }
