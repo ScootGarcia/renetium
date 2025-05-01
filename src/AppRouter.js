@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import { Camera, Search, Menu, X, MessageCircle, BookOpen, Share2, Info } from 'lucide-react';
 
 // Import page components
@@ -94,7 +94,7 @@ const Header = () => {
 // Main Router Component
 const AppRouter = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header />
       <Routes>
         <Route path="/" element={<App />} />
@@ -108,7 +108,7 @@ const AppRouter = () => {
           <h1 className="text-3xl font-bold text-blue-700">About Renetium - Coming Soon</h1>
         </div>} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
