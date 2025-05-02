@@ -60,17 +60,67 @@ const App = () => {
       
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-gradient-to-b from-blue-800 to-blue-600 text-white py-16 md:py-20">
-          <div className="container mx-auto px-6 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Share Your Photography Journey</h1>
-            <p className="text-xl mb-8 max-w-3xl mx-auto">Join the Renetium community to showcase your work, learn new techniques, and connect with fellow photographers</p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <button className="px-6 py-3 bg-white text-blue-600 font-bold rounded-lg hover:bg-blue-100 transition">Join Now</button>
-              <button className="px-6 py-3 bg-transparent border-2 border-white rounded-lg hover:bg-blue-700 transition">Explore Gallery</button>
-            </div>
+        <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-24 px-6 text-center sm:px-10 md:px-20">
+          <h1 className="text-4xl sm:text-5xl font-bold mb-6">
+          Renetium: A Creative Journey in Progress
+          
+          </h1>
+          <p className="max-w-3xl mx-auto text-lg sm:text-xl text-blue-100 leading-relaxed mb-8">
+            Welcome to Renetium — a space where photography meets code, and creativity meets learning.
+            I built this site as a beginner exploring both the art of taking photos and the craft of building a website.
+            It’s not a finished product — it’s a work in progress, just like the people who use it.
+          </p>
+          <p className="max-w-2xl mx-auto text-md sm:text-lg text-blue-200">
+            Whether you're just starting out, have something to share, or want to follow along as I learn through
+            trial, error, and AI-assisted guidance — you're in the right place.
+          </p>
+          <div className="mt-10 flex justify-center gap-4 flex-wrap">
+            <a
+              href="/#/articles"
+              className="bg-white text-blue-900 font-semibold px-6 py-3 rounded-full shadow hover:bg-blue-100 transition"
+            >
+              Explore Articles
+            </a>
+            <a
+              href="/#/forum"
+                className="border border-white text-white px-6 py-3 rounded-full hover:bg-blue-800 transition"
+            >
+            Join the Community
+            </a>
           </div>
         </section>
+
         
+        <section className="bg-white px-6 py-20 text-center sm:px-10 md:px-20 lg:py-32">
+ 
+  <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl">
+    Why I started Renetium
+  </h1>
+
+  <p className="mt-6 max-w-3xl mx-auto text-lg text-gray-700 leading-relaxed">
+    I didn’t set out with a big plan. I just wanted to explore photography and find a better way to learn by doing.
+    Around the same time, I started getting into web development. Renetium brings those two things together — a place
+    where I can share what I'm learning, practise building a site, and hopefully connect with others doing the same.
+  </p>
+
+  <p className="mt-6 max-w-3xl mx-auto text-lg text-gray-700 leading-relaxed">
+    Photography and coding don’t seem related at first, but I’ve found they’re both creative in different ways.
+    Photography helps me look closer at the world, notice light and detail. Coding gives me the tools to build something real,
+    something I can keep improving. Renetium is where those two interests meet — and evolve.
+  </p>
+
+  <p className="mt-6 max-w-3xl mx-auto text-lg text-gray-700 leading-relaxed">
+    This site is a work in progress, just like me. I built it using React, Tailwind CSS, GitHub, and a bit of help from AI tools.
+    I’m still learning — and Renetium will grow with me as I improve. If you’re curious about photography, want to share ideas,
+    or just follow along, you’re welcome here.
+  </p>
+
+  <div className="mt-10 text-base text-gray-600 italic">
+    Built by a beginner, for beginners. Let’s learn and grow together.
+  </div>
+</section>
+
+
         {/* Featured Photos Section */}
         <section className="py-12 bg-blue-50">
           <div className="container mx-auto px-6">
