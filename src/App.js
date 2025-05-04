@@ -224,7 +224,7 @@ const App = () => {
       <div>
         <RenetiumLogo />
         <p className="mt-4 text-blue-300">
-          A community for photography enthusiasts to share, learn, and grow together.
+          A community for photography beginners and enthusiasts to share, learn, and grow together.
         </p>
       </div>
 
