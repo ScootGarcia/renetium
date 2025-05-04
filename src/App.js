@@ -217,49 +217,63 @@ const App = () => {
       
       {/* Footer */}
       <footer className="bg-blue-900 text-white py-8">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div>
-              <RenetiumLogo />
-              <p className="mt-4 text-blue-300">A community for photography enthusiasts to share, learn, and grow together.</p>
-            </div>
-            
-            <div>
-              <h3 className="font-bold text-lg mb-4">Explore</h3>
-              <ul className="space-y-2">
-                <li><a href="#" className="text-blue-300 hover:text-white">Gallery</a></li>
-                <li><a href="#" className="text-blue-300 hover:text-white">Articles</a></li>
-                <li><a href="#" className="text-blue-300 hover:text-white">Forum</a></li>
-                <li><a href="#" className="text-blue-300 hover:text-white">Tips & Tricks</a></li>
-              </ul>
-            </div>
-            
-            <div>
-              <h3 className="font-bold text-lg mb-4">Community</h3>
-              <ul className="space-y-2">
-                <li><a href="#" className="text-blue-300 hover:text-white">Guidelines</a></li>
-                <li><a href="#" className="text-blue-300 hover:text-white">Members</a></li>
-                <li><a href="#" className="text-blue-300 hover:text-white">Events</a></li>
-                <li><a href="#" className="text-blue-300 hover:text-white">Challenges</a></li>
-              </ul>
-            </div>
-            
-            <div>
-              <h3 className="font-bold text-lg mb-4">Contact</h3>
-              <ul className="space-y-2">
-                <li><a href="#" className="text-blue-300 hover:text-white">About Us</a></li>
-                <li><a href="#" className="text-blue-300 hover:text-white">Support</a></li>
-                <li><a href="#" className="text-blue-300 hover:text-white">Privacy Policy</a></li>
-                <li><a href="#" className="text-blue-300 hover:text-white">Terms of Service</a></li>
-              </ul>
-            </div>
-          </div>
-          
-          <div className="mt-8 pt-6 border-t border-blue-800 text-center text-blue-400">
-            <p>&copy; {new Date().getFullYear()} Renetium. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
+  <div className="container mx-auto px-6">
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      
+      {/* Logo and About */}
+      <div>
+        <RenetiumLogo />
+        <p className="mt-4 text-blue-300">
+          A community for photography enthusiasts to share, learn, and grow together.
+        </p>
+      </div>
+
+      {/* Explore Links */}
+      <div>
+        <h3 className="font-bold text-lg mb-4">Explore</h3>
+        <ul className="space-y-2">
+          <li><a href="#" className="text-blue-300 hover:text-white">Gallery</a></li>
+          <li><a href="#" className="text-blue-300 hover:text-white">Articles</a></li>
+          <li><a href="#" className="text-blue-300 hover:text-white">Forum</a></li>
+          <li><a href="#" className="text-blue-300 hover:text-white">Tips & Tricks</a></li>
+        </ul>
+      </div>
+
+      {/* Community Links */}
+      <div>
+        <h3 className="font-bold text-lg mb-4">Community</h3>
+        <ul className="space-y-2">
+          <li><a href="#" className="text-blue-300 hover:text-white">Guidelines</a></li>
+          <li><a href="#" className="text-blue-300 hover:text-white">Members</a></li>
+          <li><a href="#" className="text-blue-300 hover:text-white">Events</a></li>
+          <li><a href="#" className="text-blue-300 hover:text-white">Challenges</a></li>
+        </ul>
+      </div>
+
+      {/* Contact Info */}
+      <div>
+        <h3 className="font-bold text-lg mb-4">Contact</h3>
+        <ul className="space-y-2">
+          <li>
+            <a href="mailto:yourname@renetium.com" className="text-blue-300 hover:text-white">
+              contact@renetium.com
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-white">
+              @renetium
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div className="mt-8 pt-6 border-t border-blue-800 text-center text-blue-400">
+      <p>&copy; {new Date().getFullYear()} Renetium. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
     </div>
   );
 };
