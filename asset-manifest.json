@@ -1,13 +1,38 @@
 {
   "files": {
-    "main.css": "/static/css/main.82a9cb69.css",
-    "main.js": "/static/js/main.f04ca688.js",
+    "main.css": "/static/css/main.cf0183c8.css",
+    "main.js": "/static/js/main.b9474a6f.js",
+    "static/media/Istanbul.JPEG": "/static/media/Istanbul.7a6e4eec1c8224d089cc.JPEG",
+    "static/media/RomeColosseum.JPEG": "/static/media/RomeColosseum.4f928bf50c77e6517e89.JPEG",
+    "static/media/HongKong1.JPEG": "/static/media/HongKong1.0ca685e72bbba28cab80.JPEG",
+    "static/media/WestIndiaQuaySunset.JPEG": "/static/media/WestIndiaQuaySunset.fde22e5712d1b4f27cf3.JPEG",
+    "static/media/Valencia.JPEG": "/static/media/Valencia.e633f5c13749adcaa914.JPEG",
+    "static/media/Reflections1.JPEG": "/static/media/Reflections1.39bc7596d1e58b2c7568.JPEG",
+    "static/media/VaticanStPeters.JPEG": "/static/media/VaticanStPeters.76044abdd0f3632c7f63.JPEG",
+    "static/media/Reflections2.JPEG": "/static/media/Reflections2.3798a5d28b309c1fe19f.JPEG",
+    "static/media/StJohann.JPEG": "/static/media/StJohann.67b2191739c67c00ae8f.JPEG",
+    "static/media/Salzburg2.JPEG": "/static/media/Salzburg2.9bb1daf3618ccdea2df9.JPEG",
+    "static/media/Athens.JPEG": "/static/media/Athens.70a3d113da209d232df5.JPEG",
+    "static/media/Salzburg.JPEG": "/static/media/Salzburg.f0633b8259b1da9533a6.JPEG",
+    "static/media/WestIndiaQuays1.JPEG": "/static/media/WestIndiaQuays1.e5c58b2cf77f53550ee7.JPEG",
+    "static/media/Reflections3.JPEG": "/static/media/Reflections3.4cf5787d05ed556544e6.JPEG",
+    "static/media/WestIndiaQuays2.JPEG": "/static/media/WestIndiaQuays2.96045eb52dc5d242152e.JPEG",
+    "static/media/Acropolis1.JPEG": "/static/media/Acropolis1.ba361559a736d1020f12.JPEG",
+    "static/media/Acropolis2.JPEG": "/static/media/Acropolis2.286ad9920fc96d0eac72.JPEG",
+    "static/media/WestIndiaQuay4.JPEG": "/static/media/WestIndiaQuay4.2e7d73fa916e982db2ae.JPEG",
+    "static/media/Acropolis5.JPEG": "/static/media/Acropolis5.28cdf50770815d11ad37.JPEG",
+    "static/media/Acropolis6.JPEG": "/static/media/Acropolis6.e7c35afd0701e1aca836.JPEG",
+    "static/media/WestIndiaQuay.JPEG": "/static/media/WestIndiaQuay.7ef015243b26d4ac0f9a.JPEG",
+    "static/media/Acropolis4.JPEG": "/static/media/Acropolis4.5a6837fc0b35ccd1be9b.JPEG",
+    "static/media/Acropolis3.JPEG": "/static/media/Acropolis3.bd817ddcda7cff7cf477.JPEG",
+    "static/media/Reflections4.JPEG": "/static/media/Reflections4.4733d07706371c77a5cf.JPEG",
+    "static/media/HongKong2.JPEG": "/static/media/HongKong2.74b550c27ed5f8780e61.JPEG",
     "index.html": "/index.html",
-    "main.82a9cb69.css.map": "/static/css/main.82a9cb69.css.map",
-    "main.f04ca688.js.map": "/static/js/main.f04ca688.js.map"
+    "main.cf0183c8.css.map": "/static/css/main.cf0183c8.css.map",
+    "main.b9474a6f.js.map": "/static/js/main.b9474a6f.js.map"
   },
   "entrypoints": [
-    "static/css/main.82a9cb69.css",
-    "static/js/main.f04ca688.js"
+    "static/css/main.cf0183c8.css",
+    "static/js/main.b9474a6f.js"
   ]
 }
