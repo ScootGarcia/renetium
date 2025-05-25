@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { Camera, Search, Menu, X, MessageCircle, BookOpen, Share2, Info } from 'lucide-react';
+import FullScreenImage from './components/FullScreenImage';
 
 // Import page components
 import App from './App';
